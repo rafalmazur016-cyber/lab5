@@ -1,6 +1,6 @@
-# lab5
+# Sprawozdanie Lab5
 
-# Kpmendy do uruchomienia 
+# Komendy do uruchomienia 
 docker build --build-arg VERSION=1.0.0 -t lab5 .
 docker run -d -p 9005:80  lab5
 
